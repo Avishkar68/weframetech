@@ -5,22 +5,19 @@ import { FaLinkedinIn } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="mt-[290px] w-full bg-white border-t border-gray-200 py-6 px-12">
+    <footer className="mt-[290px] w-full bg-white border-t border-gray-200 py-6 px-12 mb-[200px]">
       <div className="container mx-auto flex justify-between items-start mt-[40px]">
-        {/* Logo Section */}
         <div className="flex gap-10 items-center">
 
         <div className="flex flex-col items-start">
           <img
-            src="/logo.png" // Replace with your actual logo path
+            src="/logo.png"
             alt="WeFrameTech Logo"
             className="w-32"
           />
         </div>
 
-        {/* Info Sections */}
         <div className="flex space-x-12">
-          {/* Infos Pratiques */}
           <div>
             <h4 className="font-[600] font-[Epilogue] text-[18px] text-[#393939] mb-2">INFOS PRATIQUES</h4>
             <ul className="space-y-2">
@@ -31,7 +28,6 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Légal */}
           <div>
             <h4 className="font-[600] font-[Epilogue] text-[18px] text-[#393939] mb-2">LÉGAL</h4>
             <ul className="space-y-2">
@@ -42,7 +38,6 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Mon Compte */}
           <div>
             <h4 className="font-[600] font-[Epilogue] text-[18px] text-[#393939] mb-2">MON COMPTE</h4>
             <ul className="space-y-2">
@@ -55,7 +50,6 @@ const Footer = () => {
         </div>
         </div>
 
-        {/* Social Media */}
         <div className="flex flex-col items-end">
           <h4 className="font-[600] font-[Epilogue] text-[18px] text-[#393939] mb-2">NOUS SUIVRE</h4>
           <div className="flex space-x-3">
